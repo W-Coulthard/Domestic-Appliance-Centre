@@ -1,0 +1,18 @@
+body::before {
+    display: block;
+    content: " ";
+    height: 60px;
+}
+
+#hero-content {
+    background-color: rgba(241, 241, 241, 0.829);
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+#hero-text {
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 0;
+}
