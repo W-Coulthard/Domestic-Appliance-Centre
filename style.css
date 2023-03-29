@@ -30,6 +30,13 @@ body::before {
     margin-bottom: 0;
 }
 
+#map {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
 @media screen and (max-width: 768px) {
     #hero {
         height: 100vh;
