@@ -34,6 +34,10 @@ body::before {
     #hero {
         height: 100vh;
     }
+
+    #hero-content {
+        padding: 10px;
+    }
 }
     
 
