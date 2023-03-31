@@ -4,6 +4,11 @@ body::before {
     height: 60px;
 }
 
+a   {
+    color: #000;
+    text-decoration: none;
+}
+
 #hero {
     background-size: cover;
     background-position: center;
@@ -31,15 +36,27 @@ body::before {
 }
 
 #services-content {
-    background-color: rgba(218, 213, 213, 0.829);
+    background-color: rgba(238, 238, 238, 0.829);
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 #bottom-half {
-    background-color: rgba(218, 213, 213, 0.829);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#contact {
+    background-color: rgba(241, 241, 241, 0.829);
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 #map {
