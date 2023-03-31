@@ -30,6 +30,18 @@ body::before {
     margin-bottom: 0;
 }
 
+#services-content {
+    background-color: rgba(218, 213, 213, 0.829);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#bottom-half {
+    background-color: rgba(218, 213, 213, 0.829);
+    padding: 20px;
+    border-radius: 5px;
+}
+
 #map {
     height: 100%;
     width: 100%;
