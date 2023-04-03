@@ -73,6 +73,12 @@ a   {
     #hero-content {
         padding: 10px;
     }
+
+    #picture {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
 }
     
 
