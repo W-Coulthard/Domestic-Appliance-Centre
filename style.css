@@ -12,7 +12,7 @@ a   {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,17 +40,6 @@ a   {
     border-radius: 3px;
 }
 
-#bottom-half {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
 
 #contact {
     background-color: rgba(241, 241, 241, 0.829);
@@ -58,14 +47,38 @@ a   {
     border-radius: 3px;
 }
 
+#map-time {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    max-width: 100%;
+    background-color: rgba(241, 241, 241, 0.829);
+}
+
+#open-hours {
+    padding: 20px;
+    border-radius: 3px;
+    min-width: 50%;
+}
+
 #map {
+    display: flex;
     height: 100%;
     width: 100%;
     border-radius: 10px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 768px) {
+    .container {
+        padding: 0;
+    }
+
+    nav {
+        padding: 20px;
+    }
+
     #hero {
         height: 100vh;
     }
@@ -78,6 +91,29 @@ a   {
         display: flex;
         justify-content: center;
         align-items: center; 
+        padding: 1px;
+    }
+
+    #contact {
+        overflow: hidden;
+        margin: 0;
+    }
+
+    #map-time {
+        flex-direction: column;
+        align-items: center;        
+    }
+
+    #email {
+        overflow: auto;
+    }
+
+    #map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        max-width: 60%;
     }
 }
     

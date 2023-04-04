@@ -147,11 +147,11 @@
 
 
   <!-- Contact & Map -->
-  <section id="contact" class="p-5 bg-light text-dark">
+  <section id="contact" class="p-1 bg-light text-dark">
     <div class="container">
       <div class="row g-4">
         <div class="col-md">
-          <h2 class="text-center mb-4">Contact Info</h2>
+          <h2 class="text-center m-4">Contact Info</h2>
           <ul class="list-group list-group-flush lead">
             <li class="list-group-item">
               <i class="bi bi-geo-alt-fill"></i> 267 Norwich Rd, Ipswich IP1 4BS
@@ -159,15 +159,46 @@
             <li class="list-group-item">
               <i class="bi bi-telephone-fill"></i> 01473 253227
             </li>
-            <li class="list-group-item">
+            <li class="list-group-item"  id="email">
               <a class="bi bi-envelope-fill text-decoration-none text-dark" href="mailto:jasonharris17@hotmail.com"></i> jasonharris17@hotmail.com</a>
             </li>
           </ul>
         </div>
-        <div class="col-md">
-          <div id='map' style='width: 400px; height: 300px; '></div>    
-       </div>
+        <div class="d-flex" id="map-time">
+          <div id="open-hours">
+            <ul>
+              <h2 class="mb-4" id="timesH2">Opening Times</h2> 
+              <li>
+                <p class="">Monday: 9am - 5pm</p>
+              </li>
+              <li>
+                <p class="">Tuesday: 9am - 5pm</p>
+              </li>
+              <li>
+                <p class="">Wednesday: Closed</p>
+              </li>
+              <li>
+                <p class="">Thursday: 9am - 5pm</p>
+              </li>
+              <li>
+                <p class="">Friday: 9am - 5pm</p>
+              </li>
+              <li>
+                <p class="">Saturday: Closed</p>
+              </li>
+              <li>
+                <p class="">Sunday: Closed</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md p-3">
+            <div id='map' style='width: 400px; height: 300px;'></div>    
+         </div>
+        </div>
+        
       </div>
+
+    </div>
     </div>
   </section>
 
@@ -178,6 +209,9 @@
         <div class="col">
           
           <p class="lead text-center">Domestic Appliance Centre &copy; 2023, All Rights Reserved</p>
+          <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -195,6 +229,5 @@
 
   });
 </script>
-<script src="main.js"></script>
     </body>
 </html>
