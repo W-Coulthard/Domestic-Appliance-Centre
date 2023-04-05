@@ -40,6 +40,10 @@ a   {
     border-radius: 3px;
 }
 
+#services-text {
+    padding: 48px;
+}
+
 
 #contact {
     background-color: rgba(241, 241, 241, 0.829);
@@ -78,17 +82,17 @@ a   {
     right: 20px;
   }
   
-/*
+
 @media screen and (max-width: 1000px) {
     #map {
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 5px;
-        max-width: 100%;
+        max-width: 60%;
     }
 }
-*/
+
 @media screen and (max-width: 768px) {
     .container {
         padding: 0;
@@ -107,6 +111,15 @@ a   {
         justify-content: center;
         align-items: center; 
         padding: 1px;
+    }
+
+    #services-content {
+        margin: 0;
+        padding: 0;
+    }
+
+    #services-text {
+        padding: 10px;
     }
 
     #contact {
