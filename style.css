@@ -70,6 +70,25 @@ a   {
     margin-right: auto;
 }
 
+.back-to-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+/*
+@media screen and (max-width: 1000px) {
+    #map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        max-width: 100%;
+    }
+}
+*/
 @media screen and (max-width: 768px) {
     .container {
         padding: 0;
@@ -77,10 +96,6 @@ a   {
 
     nav {
         padding: 20px;
-    }
-
-    #hero {
-        height: 100vh;
     }
 
     #hero-content {
@@ -117,4 +132,7 @@ a   {
     }
 }
     
+
+    
+
 
