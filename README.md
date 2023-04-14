@@ -1,3 +1,4 @@
+![Screenshot of Website](img/screenshot.png)
 # Domestic Appliance Centre
 
 This is a project for the Domestic Appliance Centre, a website that offers domestic appliance servicing, repairs, and sales. The project includes HTML, CSS, and JavaScript files that make up the website's front-end.
